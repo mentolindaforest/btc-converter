@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Wire+One&display=swap');
+body {
+    height: 100vw;
+    width: 100vw;
+    background: rgb(151,184,167);
+    background: linear-gradient(113deg, rgba(151,184,167,1) 0%, rgba(0,255,229,1) 100%);
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.font {
+    font-family: 'Wire One', sans-serif;
+}
+.font-thin {
+    font-family: 'Montserrat', sans-serif;
+}
+.title {
+    text-align: center;
+    font-size: 75px;
+    margin: 8px 10px;
+}
+.logo {
+    width: 100%;
+    height: auto;
+    max-width: 70px;
+}
+.container {
+    margin: 145px 0 0px 0;
+    flex-direction: row;
+    gap: 15px;
+}
+.buttons {
+    margin: 30px;
+}
+.button {
+    border: none;
+    color: white;
+    background-color:rgb(19, 87, 108);
+    font-size: 30px;
+    text-align: center;
+    padding: 23px 40px;
+    opacity: 0.7;
+    transition: 0.3s;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer; 
+}
+.button:hover {
+    opacity:1
+}
+.converted_value {
+    font-size: 42px;
+    color: rgb(87, 87, 87);
+    margin: 20px 0 0 0;
+}
+.input {
+    margin: 55px 0 0 0;
+    font-size: 27px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}

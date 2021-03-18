@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTC Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    <link rel="icon" href="https://www.flaticon.com/svg/vstatic/svg/898/898523.svg?token=exp=1616067537~hmac=f360d66b7a3b3ba0d5f74a6ffb720bf3">
+</head>
+<body> 
+    <div class="container center font">
+        <h1 class="title">btc converter</h1>
+        <img src="gfx/btc.png" class="logo" alt="BTC Logo">
+    </div>
+    <div id="buttons" class="buttons center font-thin">
+        <button class="button font-thin" id="changeCurr" onclick="changeButton()">EUR → BTC</button>
+    </div>
+    <div class="center input font-thin" name="converter">
+        <div class="row">
+            <input type="number" id="number" class="col-md-12" placeholder="EUR">
+            <input type="button" value="convert" class="col-md-12" onclick="converted()">   
+        </div>
+    </div>
+    <p class="text-center converted_value col-md-40 font-thin" id = "result">...</p>
+    <script src="index.js"></script>     
+</body>
+
+</html>
+
